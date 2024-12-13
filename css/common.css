@@ -1,0 +1,29 @@
+main {
+    width: 75%;
+    font-size: 1rem;
+    font-weight: 300;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+main .container {
+    padding: 60px 25px 0;
+}
+
+.page-header {
+    margin-top: 3rem !important;
+    font-variant: small-caps;
+    font-family: serif;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+main h2 {
+    font-size: 1.5em;
+}
+
+main h3 {
+    color: #336699;
+    font-size: 90%;
+    padding-top: 2em;
+}
