@@ -52,7 +52,6 @@
                 uncertainties regarding the eligibility of your artifact for the AE process, feel free to reach out to the AE Chairs for further
                 guidance.</p>
 
-            
 
             <h3><strong>Objectives of Evaluation and Badge Certification</strong></h3>
 
@@ -73,65 +72,65 @@
 
             <h3><strong>How to Prepare and Submit an Artifact?</strong></h3>
 
-            <p>Your artifact should contain a README file, preferably with a .txt, .md, or .html extension. The README file should include four sections:</p>
+            <p>Your artifact should contain a README file, with a .txt extension. The README file should include seven elements:</p>
 
             <ul>
-                <li><span class="fw-bold">Artifact Description</span>: Explain the content of the artifact, detailing the structure of folders, files, and any other relevant information.</li>
-                <li><span class="fw-bold">Environment Setup</span>: Specify the requirements to run the artifact, including operating system, minimum RAM, or CPU. We strongly recommend providing a Docker image for ease of access. In such a case, you also need to provide the information on how to run the Docker image.</li>
-                <li><span class="fw-bold">Getting Started</span>: Describe how to set up the artifact and validate its general functionality based on a small example data. This setup and execution should ideally take no more than 30 minutes.</li>
-                <li><span class="fw-bold">Reproducibility Instructions</span>: Describes how to reproduce the paper's claims and results in detail.</li>
+                <li>TARGET BADGE: Clarify the badge you are targeting (available, reviewed, reproducible).</li>
+                <li>INFO: title of the accepted paper and its submission number, and contact information.</li>
+                <li>EXPECTED BEHAVIOUR: what is the artifact intended to do, including a description of its scope and the output it will provide.</li>
+                <li>ARTIFACT DESCRIPTION: Explain the content of the artifact, detailing the structure of folders, files, and any other relevant information.</li>
+                <li>ENVIRONMENT SETUP: Specify the requirements to run the artifact. This includes minimum RAM, or CPU. If your artifact depends on a specific operating system, you are required to provide a suitable virtualization environment. In any case, we strongly recommend providing a Docker image for ease of access. In such a case, you also need to provide the information on how to run the Docker image.</li>
+                <li>GETTING STARTED: Describe how to set up the artifact and validate its general functionality based on a small example data. This setup and execution should ideally take no more than 30 minutes.</li>
+                <li>REPRODUCIBILITY: Describes how to reproduce the paper's claims and results in detail.</li>
             </ul>
 
-            <p>The inclusion of all sections depends on the type of artifact you are submitting and the badges you are requesting for review.</p>
+            <p>As a guideline, we recommend that you prepare your submission such that set-up, execution and analysis can be completed within 4 hours.</p>
 
-            <p>Specifically:</p>
+            <p>The inclusion of all sections depends on the type of artifact you are submitting and the badges you are requesting for review.
+                Specifically, the Getting Started section is required for the Reviewed and Reproducible badges, and the Reproducibility Instructions
+                section is required for the Reproducible badge.</p>
 
-            <ul>
-                <li>Artifact Description and Environment Setup sections are required for the Available, Reviewed, and Reproducible badges.</li>
-                <li>The Getting Started section is required for the Reviewed and Reproducible badges.</li>
-                <li>The Reproducibility Instructions section is required for the Reproducible badge.</li>
-            </ul>
+            <p>Note that it is requested you include a LICENSE file that contains an open-source license, which clearly describes the distribution rights for your project.</p>
 
-            <p>To qualify for 'Available' or higher badges, you must include a LICENSE file that contains an open-source license, which clearly describes the distribution rights for your project.</p>
-            
-            <p>Once you have prepared your artifact, including both the required README file and LICENSE file, upload it to Zenodo or a similar service (e.g., figshare) to acquire a DOI. This DOI should be included in both the camera-ready version of your paper and during the artifact submission.
+            <p>Once you have prepared your artifact, including both the required README file and LICENSE file, upload it to Zenodo or a similar service
+                (e.g., figshare) to acquire a DOI. This DOI should be included in both the camera-ready version of your paper and during the artifact submission.</p>
 
-            <p>To submit the artifact for evaluation, provide the DOI and additional information about the artifact (e.g., the paper abstract) using the EasyChair platform. You also need to provide a copy of the accepted paper and specify which of the badges you are applying for.</p>
-                
+            <p>To submit the artifact for evaluation, provide the DOI and additional information about the artifact (e.g., the paper abstract) using the
+                EasyChair platform. You also need to provide a copy of the accepted paper and specify which of the badges you are applying for.</p>
+
             <p>More information about the badges and the best artifact awards follows.</p>
 
-            <h3><strong>Available Badge</strong></h3>
+            <p>Available Badge</p>
 
-            <p>To qualify for the Available badge, your artifact must be accessible through a hosting platform. While Zenodo is commonly
-                used and recommended for its reliability and integration with scholarly practices, authors are free to choose the platform
-                that best suits their needs. Ensure that your artifact is self-contained and versioned during the upload process. Upon upload
-                to your chosen platform, a DOI will be generated, which is essential for artifact evaluation submission.</p>
+            <p>To qualify for the Available badge, your artifact must be accessible through a hosting platform. While Zenodo is commonly used and
+                recommended for its reliability and integration with scholarly practices, authors are free to choose the platform that best suits
+                their needs. Ensure that your artifact is self-contained and versioned during the upload process. Upon upload to your chosen platform,
+                a DOI will be generated, which is essential for artifact evaluation submission.</p>
 
             <p>Kindly note that once submitted, your artifact will be immediately accessible to the public and cannot be modified or deleted.
                 However, you retain the option to upload an updated version, which will be assigned a new DOI (e.g., to address reviewer feedback).</p>
-            
-            <p>Furthermore, please ensure that your artifact is accompanied by a LICENSE file, clearly outlining the distribution rights.
-                To be eligible for badges such as 'Available' or higher, the file must incorporate an open-source license.</p>
-        
+
+            <p>Furthermore, please ensure that your artifact is accompanied by a LICENSE file, clearly outlining the distribution rights. To be eligible
+                for badges such as 'Available' or higher, the file must incorporate an open-source license.</p>
+
             <p>Reviewers will validate the authenticity of the DOI and LICENSE file, and then assess the clarity and comprehensiveness of your
                 artifact and README file.</p>
 
-            <h3><strong>Reviewed Badge</strong></h3>
+            <p>Reviewed Badge</p>
 
             <p>Reviewers will evaluate your artifact's fundamental functionality based on the instructions provided in the "Getting Started"
-                section of the README file. The Reviewed Badge will be awarded if reviewers can successfully set up the artifact and verify
-                its basic functionality using a small sample dataset within 30 minutes.</p>
+                section of the README file. The Reviewed Badge will be awarded if reviewers can successfully set up the artifact and verify its basic
+                functionality using a small sample dataset within 30 minutes.</p>
 
-            <h3><strong>Reproducible Badge</strong></h3>
+            <p>Reproducible Badge</p>
 
             <p>Earning the Reproducible badge entails an additional level of scrutiny. Reviewers will reproduce computational results using your
                 research objects, methods, code, and analysis conditions. Therefore, the inclusion of a Reproducibility Instructions section is
-                imperative for this badge. Reviewers will conduct a thorough assessment to validate your artifact's support for the paper's primary
-                claims.</p>
+                imperative for this badge. Reviewers will conduct a thorough assessment to validate your artifact's support for the paper's primary claims.</p>
 
-            <p>Please note that if reproducing results requires extensive computation or substantial computational resources, reviewers may
-                exercise discretion in running experiments. If obtaining results necessitates significant computation time (e.g., days or months),
-                reviewers may not be able to reproduce them fully.</p>
+            <p>Please note that if reproducing results requires extensive computation or substantial computational resources, reviewers may exercise
+                discretion in running experiments. If obtaining results necessitates significant computation time (e.g., days or months), reviewers
+                may not be able to reproduce them fully.</p>
 
             <p>It is crucial to emphasize that clear, detailed documentation and instructions are essential for badge certification.</p>
 
@@ -139,16 +138,28 @@
 
             <h3><strong>2025 ISSRE Best Artifact Awards</strong></h3>
 
-            In recognition of the authors' dedicated efforts in creating and disseminating exceptional research artifacts, the 2025 ISSRE
+            <p>In recognition of the authors' dedicated efforts in creating and disseminating exceptional research artifacts, the 2025 ISSRE
             Best Artifact Award will be presented. This award celebrates the outstanding contributions made by authors to advance the field
-            through the creation and dissemination of remarkable research artifacts.
+            through the creation and dissemination of remarkable research artifacts.</p>
+
+            <h3><strong>Evaluation procedure</strong></h3>
+
+            <p>Artifacts will be evaluated by the Artifact Evaluation Committee. Committee members may contact the authors in case of doubts,
+                to clarify possible open issues with the execution of the artifacts. In any circumstances, no amendments to the declared procedures
+                and the provided delivery are accepted, while clarifications are only intended to avoid factual mistakes by the Evaluation Committee.</p>
+
+            <h3><strong>Composition of the Evaluation Committee</strong></h3>
+
+            <p>
+                The Evaluation Committee is open for candidates. If you wish to join the Evaluation Committee, please contact the AE Chairs.
+                Consider that the Evaluation Committee will be mostly active between the end of August and in September, and that we expect
+                each member will be assigned 2 artifacts for review.
+            </p>
 
             <h3><strong>Important dates (tentative)</strong></h3>
 
             <ul>
                 <li>Artifact Evaluation submission: August 19th, 2025 (AoE)</li>
-                <li>Artifact Evaluation rebuttal: from September 6th, 2025 to September 10th, 2025 (AoE)</li>
-                <li>PC discussion: from September 11th, 2025 to September 19th, 2025 (AoE)</li>
                 <li>Artifact Evaluation notification: September 21th, 2025 (AoE)</li>
             </ul>
 
@@ -161,8 +172,8 @@
             <h3><strong>Artifact Evaluation Chairs</strong></h3>
 
             <ul>
-                <li>Andrea Ceccarelli, University of Florence, Italy<!--, <a href="mailto:andrea.ceccarelli@unifi.it">andrea.ceccarelli@unifi.it</a>--></li>
                 <li>João R. Campos, University of Coimbra, Portugal<!--, <a href="mailto:jrcampos@dei.uc.pt">jrcampos@dei.uc.pt--></a></li>
+                <li>Andrea Ceccarelli, University of Florence, Italy<!--, <a href="mailto:andrea.ceccarelli@unifi.it">andrea.ceccarelli@unifi.it</a>--></li>
             </ul>
         </div>
     </main>
