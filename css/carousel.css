@@ -40,8 +40,11 @@ body {
     position: absolute;
     top: 0;
     left: 0;
-    min-width: 100%;
-    height: 28rem;
+    overflow: hidden;
+}
+
+.position-left-20 {
+    object-position: left 20%;
 }
 
 
