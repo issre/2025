@@ -38,13 +38,14 @@ body {
 
 .carousel-item>img {
     position: absolute;
-    top: 0;
-    left: 0;
     overflow: hidden;
 }
 
+/*top: 0;
+    left: 0;*/
+
 .position-left-20 {
-    object-position: left 20%;
+    object-position: left 45%;
 }
 
 
